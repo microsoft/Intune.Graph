@@ -1,4 +1,5 @@
 # Intune.Graph
+<<<<<<< HEAD
 Last Updated: 02/05/2025 <br/>
 Last Updated By: Ken Johnson <br/>
 
@@ -9,3 +10,6 @@ TODO: Add installation instructions
 
 ## Usage
 TODO: Add usage instructions
+=======
+Additional PowerShell utilities for managing Intune objects
+>>>>>>> 6ae0975 (Initial commit)
