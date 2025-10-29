@@ -71,13 +71,15 @@ RequiredModules = @(@{ModuleName = 'Microsoft.Graph.Authentication'; RequiredVer
 # Functions to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no functions to export.
 FunctionsToExport = 'Invoke-GraphBatchRequest', 'New-GraphBatchRequest', 
                'Add-IntuneCompliancePolicyAssignment', 
-               'Backup-IntuneCompliancePolicy', 'Get-IntuneCompliancePolicy', 
+               'Backup-IntuneCompliancePolicy', 'Copy-IntuneCompliancePolicy', 
+               'Get-IntuneCompliancePolicy', 
                'Get-IntuneCompliancePolicyAssignments', 
                'New-IntuneCompliancePolicyAssignment', 
                'Remove-IntuneCompliancePolicyAssignment', 
                'Add-IntuneConfigurationProfileAssignment', 
                'Backup-IntuneConfigurationProfile', 
                'Compare-IntuneConfigurationProfileSettings', 
+               'Copy-IntuneConfigurationProfile', 
                'Get-IntuneConfigurationProfile', 
                'Get-IntuneConfigurationProfileAssignments', 
                'Get-IntuneConfigurationProfileSettings', 
@@ -92,7 +94,14 @@ FunctionsToExport = 'Invoke-GraphBatchRequest', 'New-GraphBatchRequest',
                'New-IntuneDeviceConfigurationWindows81TrustedRootCertificate', 
                'New-IntuneTrustedCertificate', 'Remove-IntuneDeviceConfiguration', 
                'Get-IntuneFilter', 'New-IntuneFilter', 'Remove-IntuneFilter', 
-               'Set-PrimaryUser', 'Get-IntuneTag', 'New-IntuneTag', 'Remove-IntuneTag'
+               'Set-PrimaryUser', 
+               'Add-IntunePlatformScriptAssignment', 'Copy-IntunePlatformScript', 
+               'Get-IntunePlatformScript', 'Get-IntunePlatformScriptAssignments', 
+               'Remove-IntunePlatformScript', 'Remove-IntunePlatformScriptAssignment', 
+               'Add-IntuneRemediationScriptAssignment', 'Copy-IntuneRemediationScript', 
+               'Get-IntuneRemediationScript', 'Get-IntuneRemediationScriptAssignments', 
+               'Remove-IntuneRemediationScript', 'Remove-IntuneRemediationScriptAssignment', 
+               'Get-IntuneTag', 'New-IntuneTag', 'Remove-IntuneTag'
 
 # Cmdlets to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no cmdlets to export.
 CmdletsToExport = @()
